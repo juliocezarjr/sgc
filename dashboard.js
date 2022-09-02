@@ -10,28 +10,28 @@
 
   // eslint-disable-next-line no-unused-vars
   const myChart = new Chart(ctx, {
-    type: 'line',
+    type: 'column',
     data: {
-        labels:[1,2,3,4,5,6,7,8],
-    datasets: [{
-        data: [
-          15339,
-          21345,
-          18483,
-          24003,
-          23489,
-          24092,
-          12034
-        ],
-        lineTension: 0,
-        backgroundColor: 'transparent',
-        borderColor: '#007bff',
-        borderWidth: 4,
-        pointBackgroundColor: '#007bff'
-      },
+        labels:[1,2,3,4,5,6,7],
+        datasets: [{
+          data: [
+              
+              21345,
+              18483,
+              24003,
+              23489,
+              24092,
+              12034
+            ],
+          lineTension: 0,
+          backgroundColor: 'transparent',
+          borderColor: '#007bff',
+          borderWidth: 4,
+          pointBackgroundColor: '#007bff'
+        },
       {
         data: [
-          13339,
+          50000,
           25345,
           12483,
           29003,
@@ -50,7 +50,7 @@
       scales: {
         yAxes: [{
           ticks: {
-            beginAtZero: false
+            beginAtZero: true
           }
         }]
       },

@@ -1,4 +1,4 @@
-import meses from "/datas/nomesPorExtenso.js";
+import mesesDoAno from "./datas/nomesPorExtenso.js";
 
 //Selecionando o elemento
 let elemento = document.querySelector("#esseMes");
@@ -9,13 +9,7 @@ let mesAtual = dataAtual.getMonth();
 
 
 // innerHTML
-elemento.innerHTML = meses[mesAtual];
+elemento.innerHTML = mesesDoAno[mesAtual];
 
-console.log("teste 123")
-
-
-
-
-
-
-
+console.log("testando ...");
+console.log(mesesDoAno[1]);
